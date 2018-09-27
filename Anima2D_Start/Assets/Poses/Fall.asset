@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0543fe805424df99fe08ce744cbe49, type: 3}
+  m_Name: Fall
+  m_EditorClassIdentifier: 
+  m_PoseEntries:
+  - path: Bones/YUE_M_Hips_bone
+    localPosition: {x: 2.139586, y: -5.77, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.14150597, w: 0.98993737}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_B_UpperLeg_bone
+    localPosition: {x: -0.30949855, y: -0.058115005, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.8842901, w: 0.46693796}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_B_UpperLeg_bone/YUE_B_Shin_bone
+    localPosition: {x: 1.4372593, y: 0.000000029802322, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.08079708, w: 0.99673057}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_B_UpperLeg_bone/YUE_B_Shin_bone/YUE_B_Foot_bone
+    localPosition: {x: 1.9843433, y: 0.00000071525574, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.82277447, w: 0.5683681}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_F_UpperLeg_bone
+    localPosition: {x: 0.33354408, y: -0.037918754, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.84737605, w: 0.5309933}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_F_UpperLeg_bone/YUE_F_Shin_bone
+    localPosition: {x: 1.4425325, y: 0.00000008940697, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_F_UpperLeg_bone/YUE_F_Shin_bone/YUE_F_Foot_bone
+    localPosition: {x: 2.0245752, y: -0.0000047683716, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.8433915, w: 0.53729963}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone
+    localPosition: {x: 0.0060954094, y: 0.19782734, z: 0}
+    localRotation: {x: -0, y: 0, z: -0.5175047, w: -0.8556804}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone
+    localPosition: {x: 1.5267768, y: -0.00000017881393, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.014040743, w: 0.9999014}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone/YUE_M_Neck_bone
+    localPosition: {x: 1.21967, y: -0.00000007916242, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.016204584, w: 0.9998687}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone/YUE_M_Neck_bone/YUE_M_Head_bone
+    localPosition: {x: 0.5956879, y: 0.0000023803032, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.004371981, w: 0.99999046}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone/YUE_M_Neck_bone/YUE_M_Head_bone/YUE_M_HeadTip_bone
+    localPosition: {x: 3.5011725, y: 0.0000000019808795, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.41017172, w: 0.91200835}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone/YUE_M_Neck_bone/YUE_M_Head_bone/YUE_F_Pupil_bone
+    localPosition: {x: 2.3190458, y: 0.44538948, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.9444402, w: 0.32868338}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone/YUE_M_Neck_bone/YUE_M_Head_bone/YUE_B_Pupil_bone
+    localPosition: {x: 2.486209, y: 2.3712735, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone/YUE_M_Neck_bone/YUE_M_Head_bone/YUE_F_EyebrowA_bone
+    localPosition: {x: 3.2867846, y: -0.26331872, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.5130844, w: 0.8583381}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone/YUE_M_Neck_bone/YUE_M_Head_bone/YUE_F_EyebrowA_bone/YUE_F_EyebrowB_bone
+    localPosition: {x: 1.0473917, y: 0.0000014901161, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.6142519, w: 0.78911006}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone/YUE_M_Neck_bone/YUE_M_Head_bone/YUE_B_EyebrowA_bone
+    localPosition: {x: 3.3386917, y: 2.5636625, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.45217788, w: 0.8919278}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone/YUE_M_Neck_bone/YUE_M_Head_bone/YUE_B_EyebrowA_bone/YUE_B_EyebrowB_bone
+    localPosition: {x: 0.6591494, y: 0.0000012516975, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.5276511, w: 0.84946126}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone/YUE_M_Neck_bone/YUE_M_Head_bone/YUE_F_Hairtail_bone
+    localPosition: {x: 2.641602, y: -1.4458828, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.9037653, w: 0.4280284}
+    localScale: {x: 0.9628581, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone/YUE_M_Neck_bone/YUE_M_Head_bone/YUE_B_Hairtail_bone
+    localPosition: {x: 2.245946, y: 2.0892763, z: 0}
+    localRotation: {x: 0, y: -0, z: 0.7333503, w: -0.67985106}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone/YUE_M_Neck_bone/YUE_M_Head_bone/YUE_M_Fronthair_bone
+    localPosition: {x: 5.554367, y: 0.63875484, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.98050046, w: 0.19651681}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone/YUE_F_UpperArm_bone
+    localPosition: {x: 0.8339067, y: -0.6704055, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.3213808, w: 0.94695}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone/YUE_F_UpperArm_bone/YUE_F_ForeArm_bone
+    localPosition: {x: 1.2344896, y: -0.000007480383, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.036120456, w: 0.99934745}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone/YUE_F_UpperArm_bone/YUE_F_ForeArm_bone/YUE_F_Hand_bone
+    localPosition: {x: 1.1542921, y: -0.0000032633543, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.011566042, w: -0.9999331}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone/YUE_B_UpperArm_bone
+    localPosition: {x: 0.9679135, y: 0.38750288, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.290126, w: 0.95698845}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone/YUE_B_UpperArm_bone/YUE_B_ForeArm_bone
+    localPosition: {x: 1.4271865, y: -0.0000104010105, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.1626458, w: 0.98668456}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_M_SpineB_bone/YUE_B_UpperArm_bone/YUE_B_ForeArm_bone/YUE_B_Hand_bone
+    localPosition: {x: 1.0040681, y: -0.000002682209, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.005255447, w: 0.99998623}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_B_skirt_bone
+    localPosition: {x: -0.17673364, y: 0.52228504, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.86503327, w: 0.5017146}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/YUE_M_Hips_bone/YUE_M_SpineA_bone/YUE_F_skirt_bone
+    localPosition: {x: -0.13853477, y: -0.46720165, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.8780498, w: 0.47856927}
+    localScale: {x: 1, y: 1, z: 1}
