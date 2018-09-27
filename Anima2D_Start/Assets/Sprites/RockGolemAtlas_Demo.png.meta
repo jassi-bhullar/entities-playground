@@ -116,12 +116,12 @@ TextureImporter:
       name: RockGolemAtlas_Demo_0
       rect:
         serializedVersion: 2
-        x: 99
-        y: 839
-        width: 305
-        height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 94
+        y: 834
+        width: 315
+        height: 224
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -196,12 +196,12 @@ TextureImporter:
       name: RockGolemAtlas_Demo_4
       rect:
         serializedVersion: 2
-        x: 276
-        y: 527
-        width: 240
-        height: 213
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 271
+        y: 522
+        width: 250
+        height: 223
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -356,12 +356,12 @@ TextureImporter:
       name: RockGolemAtlas_Demo_12
       rect:
         serializedVersion: 2
-        x: 44
-        y: 55
-        width: 444
-        height: 405
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 39
+        y: 49.999985
+        width: 454
+        height: 415.00006
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0.49999994}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -483,6 +483,6 @@ TextureImporter:
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
-  userData: 636736579080000000
+  userData: 636736588690000000
   assetBundleName: 
   assetBundleVariant: 
